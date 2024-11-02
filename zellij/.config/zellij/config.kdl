@@ -1,4 +1,5 @@
 copy_clipboard "system"
+default_layout "compact"
 
 keybinds {
   normal {
