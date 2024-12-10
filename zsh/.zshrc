@@ -128,7 +128,7 @@ esac
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:/usr/local/go/bin:$PATH"
+export PATH="$BUN_INSTALL/bin:/usr/local/go/bin:$HOME/.cargo/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 . "/home/abusarah/.deno/env"
