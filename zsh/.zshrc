@@ -132,3 +132,6 @@ export PATH="$BUN_INSTALL/bin:/usr/local/go/bin:$HOME/.cargo/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 . "/home/abusarah/.deno/env"
+
+# opam configuration
+[[ ! -r /home/abusarah/.opam/opam-init/init.zsh ]] || source /home/abusarah/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
